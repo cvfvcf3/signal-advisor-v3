@@ -1,4 +1,5 @@
 import { MODES, MODE_CONFIG, SYMBOLS } from "@/lib/config";
+import { loadRuntimeConfig } from "@/lib/configStore";
 
 export const dynamic = "force-dynamic";
 
