@@ -118,4 +118,3 @@ actual Node/Postgres environment used by the deployment.
 No trade execution, no portfolio management, no exchange private API, no user account system, and
 no claim that the hand-tuned weights have been historically validated. `/api/accuracy` is an
 observational journal metric, not a promise of future performance.
-

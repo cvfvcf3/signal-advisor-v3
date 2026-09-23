@@ -180,7 +180,7 @@ export default function Dashboard() {
       <header className="mb-6 flex flex-wrap items-end justify-between gap-4">
         <div>
           <h1 className="text-2xl font-semibold tracking-tight text-slate-100">
-            Signal Advisor <span className="text-amber-400">v2</span>
+            Signal Advisor <span className="text-amber-400">v3</span>
           </h1>
           <p className="mt-1 text-xs text-slate-500">
             READ-ONLY · NO TRADING · 5-layer engine over live OKX market data ·
@@ -378,7 +378,7 @@ export default function Dashboard() {
           <h2 className="mb-3 text-sm font-semibold text-slate-200">
             Layer breakdown (live) · {symbol} · {mode}
           </h2>
-          <LayerBars layers={current?.layers ?? null} />
+          <LayerBars layers={parseLayers(current?.layers)} />
           {current ? (
             <div className="mt-4 flex gap-6 border-t border-slate-800 pt-3 text-xs text-slate-400">
               <span>

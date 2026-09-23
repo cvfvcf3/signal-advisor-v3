@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Signal Advisor v2",
+  title: "Signal Advisor v3",
   description:
     "Read-only multi-coin, multi-mode crypto signal engine with 5-layer confluence analysis.",
 };
